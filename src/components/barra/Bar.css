@@ -1,0 +1,40 @@
+.bar {
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    width: 82%;
+    margin: auto;
+    padding: 3em;
+    margin-top: 5em;
+    border-radius: 10px;
+}
+
+.bar > h2 {
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 0.5em;
+}
+
+.bar > p {
+    font-weight: 600;
+}
+
+.bar > button {
+    padding: 1em;
+    width: 10em;
+    color: white;
+    font-weight: 600;
+    background: black;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1340px) {
+    .bar > h2 {
+        display: block;
+    }
+
+    .bar > button {
+        margin: 1em 0 0 0
+    }
+}

@@ -1,0 +1,87 @@
+.whatGPT {
+    padding: 4em;
+    width: 82%;
+    height: max-content;
+    margin: auto;
+    background: linear-gradient(150deg, #81afddad,#042c54,#042c54,#042c54,#042c54, #042c54);
+}
+
+.whatGPT > div {
+    margin-top: 2em;
+}
+
+.whatGPT > div > p {
+    color: var(--color-text);
+}
+
+.whatGPT > .div1 > h2 {
+    color: white;
+    display: inline-block;
+}
+
+.whatGPT > .div1 > p {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+.whatGPT > .div2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.whatGPT > .div2 > h2 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatGPT > .div2 > p {
+    margin-top: 3px;
+    color: chocolate;
+}
+
+.line {
+    width: 3em;
+    height: 0.3em;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.whatGPT > .div3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.whatGPT > .div3 > div > h3 {
+    color: white;
+    margin-top: 1em;
+}
+
+.whatGPT > .div3 > div {
+    margin-top: 1em;
+}
+
+.whatGPT > .div3 > div > p {
+    color: var(--color-text);
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 645px) {
+    .whatGPT > .div2 > p {
+        margin-top: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .whatGPT > .div1 > p {
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
+    .whatGPT > .div1 > h2 {
+        margin-top: 1em;
+    }
+}
